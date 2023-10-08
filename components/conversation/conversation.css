@@ -1,0 +1,23 @@
+.conv_img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-right: 10px;
+}
+.conv_container{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    cursor: pointer;
+    padding: 10px;
+}
+.conv_container:hover{
+    background: rgb(248, 243, 243);
+    border-radius: 5px;
+
+}
+.conv_name{
+    font-weight: 500;
+    font-size: 16px;
+}

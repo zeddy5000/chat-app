@@ -1,5 +1,5 @@
 .chat_window_container{
-    height: calc(100vh-70px);
+    height: 100%;
     display: flex;
 }
 .search_chat{
@@ -13,6 +13,7 @@
 }
 .chat_box{
     flex: 5.5;
+    
 }
 .online_menu{
     flex: 3;
@@ -21,4 +22,39 @@
     padding: 10px;
     
     height: 100%;
+}
+.chat_box_bottom{
+   
+   
+    margin-top: 60px;
+    height: 90%;
+   
+}
+.chat_msg_input{
+    width: 80%;
+    height: 90%;
+    padding: 10px;
+}
+.chatSubmit_button{
+    width: 70px;
+    height: 40px;
+    border: none;
+    border-radius: 5%;
+    color: white;
+    background: teal;
+}
+.chat_box_wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.chat_box_top{
+    height: 200%;
+  overflow-y: scroll;
+  padding-right: 10px;
+  
+}
+.chat_bottom_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
